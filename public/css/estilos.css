@@ -1,6 +1,6 @@
 :root{
   --color-principal: #2c3e50;
-  --color-secundario: #51b2f2;
+  --color-secundario: #d5eeff;
   --color-texto: #2c2c2c;
   --color-blanco: #fff;
 
@@ -24,4 +24,16 @@ header{
   padding: 20px;
   border-radius: 12px;
 }
-
+h1, h2, h3 {
+  color: var(--color-principal);
+  margin-bottom: 10px;
+}
+h2{
+    background-color: #2c2c2c;
+    color: var(--color-blanco);
+    text-align: center;
+}
+footer{
+    background-color: var(--color-secundario);
+    text-align: center;
+}
